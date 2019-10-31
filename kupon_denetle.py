@@ -1,4 +1,4 @@
-#Ömer Raif Tekin tarafından hazırlanmıştır efenim saygılarla
+#USE THE PYTHON^ !
 red , blue , green , yan , normal = "\033[31m","\033[34m" , "\033[32m" , "\033[6m" , "\033[0m"
 kupon = input("Denenecek Kupon : ")
 from selenium import webdriver as wb
