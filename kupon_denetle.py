@@ -15,7 +15,7 @@ except:
     exit()
 ekran.get("https://udemy.com/")
 if ekran.title == 'Access to this page has been denied.':
-    print("Doğrulamaya takıldık :D Lütfen doğrulanın .")
+    print("Görünüşe göre doğrulamaya takıldık .")
 
 print("\nLütfen giriş yapın \n")
 input(green+"[OTURUM AÇILDIYSA [ENTER] ]"+normal)
@@ -31,7 +31,7 @@ for i in file:
     if ekran.current_url[-uzunluk:] == kupon:
         print(green+"\nbulundu !: "+normal+ekran.current_url+normal+"\n")
     else:
-        print("Şansına küs knk :D --> "+i[28:-uzunluk_link]+"\n")
+        print("Bulunamadı --> "+i[28:-uzunluk_link]+"\n")
         print("\n\033[31m-------------\033[0m\n")
 ekran.close()
 print("\nUmarım yararlı olmuştur\n")
